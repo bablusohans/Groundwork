@@ -18,7 +18,7 @@ public class RobotExample {
 		o.addArguments("disable-extensions");
 		o.addArguments("--start-maximized");
 		WebDriver driver = new ChromeDriver(o);
-        driver.get("E:\\sample.html");
+        	driver.get("E:\\sample.html");
         try {
 			WebElement btn = driver.findElement(By.xpath("//input[@id='fileToUpload']"));
 			btn.click();
